@@ -28,6 +28,7 @@
 		E098575627C0F2BB0003FAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E098575D27C2CE700003FAEA /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		E098575F27C2D0370003FAEA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E0C747E827E626E700FBE249 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		E098573C27C0F2BA0003FAEA = {
 			isa = PBXGroup;
 			children = (
+				E0C747E827E626E700FBE249 /* .gitignore */,
 				E098574727C0F2BA0003FAEA /* Concentration */,
 				E098574627C0F2BA0003FAEA /* Products */,
 			);
