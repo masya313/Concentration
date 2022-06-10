@@ -39,11 +39,33 @@ class Concentration {
 //            cards[index].isFaceUp = true
 //        }
     }
+
+    func resetGame() {
+        for index in cards.indices {
+            cards[index].isFaceUp = false
+            cards[index].isMatched = false
+        }
+        cards.shuffle()
+    }
+    
+    /* extension Array {
+        mutating func shuffle() {
+            if count < 2 { return }
+            
+            for i in indices.dropLast() {
+                let diff = distance(from: i, to: endIndex)
+                let j = index(i, offsetBy: diff.arc4random)
+                swapAt(i, j)
+            }
+        }
+    }
+     */
     
     init(numberOfPairsOfCards: Int) {
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
             cards += [card, card]
         }
+        cards.shuffle()
     }
 }
